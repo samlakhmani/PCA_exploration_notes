@@ -1,5 +1,16 @@
 # Principal Component Analysis
 
+Steps of PCA : 
+- PCA finds the best fit line across all the dementions.
+    - Special quick formula is used to find best fit line. It is not OLS.     
+- Then its find the projections of all the points on the best fit line, that is PC1
+
+NB: 
+1. The number of features do not determine the no of PCs
+2. The Eigen vector determines which feature is post important for that PC
+3. The Eigen value captures the variance of the PC amongst all PC
+
+
 **Youtube Video**
 
 [https://www.youtube.com/watch?v=FgakZw6K1QQ](https://www.youtube.com/watch?v=FgakZw6K1QQ)
